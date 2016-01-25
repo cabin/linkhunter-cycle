@@ -1,11 +1,19 @@
 {
   "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --inline"
+  },
   "babel": {
-    "presets": ["es2015"]
+    "presets": [
+      "es2015"
+    ]
   },
   "dependencies": {
     "@cycle/core": "^6.0.0",
-    "@cycle/dom": "^8.0.0",
+    "@cycle/dom": "^9.0.1",
+    "@cycle/isolate": "^1.2.0",
+    "@cycle/storage": "^2.0.3",
+    "lodash": "^4.0.0",
     "rx": "^4.0.7"
   },
   "devDependencies": {
